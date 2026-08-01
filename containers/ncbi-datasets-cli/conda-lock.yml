@@ -25,26 +25,26 @@ metadata:
   - ncbi-datasets-cli_env.yml
 package:
 - name: ca-certificates
-  version: 2026.2.25
+  version: 2026.7.22
   manager: conda
   platform: linux-64
   dependencies:
     __unix: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.2.25-hbd8a1cb_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.7.22-hbd8a1cb_0.conda
   hash:
-    md5: 4492fd26db29495f0ba23f146cd5638d
-    sha256: 67cc7101b36421c5913a1687ef1b99f85b5d6868da3abbf6ec1a4181e79782fc
+    md5: 0f51e2391ade309db462a55611263e9c
+    sha256: 0a0544cf95f64394fe4959286f5c71f5444ad58feb0602e53becb27448d24da6
   category: main
   optional: false
 - name: ncbi-datasets-cli
-  version: 18.20.0
+  version: 18.34.0
   manager: conda
   platform: linux-64
   dependencies:
     ca-certificates: ''
-  url: https://conda.anaconda.org/conda-forge/linux-64/ncbi-datasets-cli-18.20.0-ha770c72_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/ncbi-datasets-cli-18.34.0-ha770c72_0.conda
   hash:
-    md5: 589efb3cdf3c1ec8c1de7caedb0c30f6
-    sha256: 7eafdef205de3c8f0ede6ba2e4ea68e7a40c7b05d010a36b256c25f129eca687
+    md5: fadb1ec70458ddd1fcf877451700dea0
+    sha256: 42fdc169452a396866e7610d21976dd5b07bdb8d231c7abbfebd76a1114098c4
   category: main
   optional: false
