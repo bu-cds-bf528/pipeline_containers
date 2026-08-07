@@ -18,3 +18,4 @@ subread
 bedops
 trinity
 rsem
+rseqc
