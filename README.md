@@ -43,7 +43,7 @@ Only tools and packages installable via micromamba are used. Reproducibility is 
 Images are published to the GitHub Container Registry (GHCR) and can be pulled directly:
 
 ```bash
-docker pull ghcr.io/bf528/<tool>:latest
+docker pull ghcr.io/bu-cds-bf528/<tool>:latest
 ```
 
 ---
